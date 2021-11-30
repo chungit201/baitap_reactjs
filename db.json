@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "chungvuong01@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "email": "vuongvanchung30092001@gmail.com",
+      "password": "$2a$10$vjI4C4ZINSmbPc9sih.44OkTR4bVFsHtaIGPPY7hs6YCNngULSrYy",
+      "id": "1"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Product1",
+      "img": "img.png",
+      "price": 122121212,
+      "desc": "description"
+    },
+    {
+      "title": "Chungvvdad",
+      "img": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20211119/19112021061120_ao_khoac_nu__W1AKD11101FONTRHT_toto_shop__1_.jpg",
+      "price": "24131",
+      "desc": "41413131",
+      "id": 2
+    }
+  ]
+}
