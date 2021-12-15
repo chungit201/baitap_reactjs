@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Table } from 'react-bootstrap'
 import { set } from 'react-hook-form';
+import { Link } from 'react-router-dom';
 import Products from './Products';
 const ProductsPage = () => {
   const [products, setProducts] = useState([]);
@@ -23,6 +24,18 @@ const ProductsPage = () => {
     getProducts();
 
   }, []);
+  const handleClick = (id) =>{
+    const url = `http://localhost:3000/products/${id}`;
+    fetch(url,{
+      method: "DELETE",
+      headers:{
+        "Content-type": "application/json"
+      }
+    }).then(res=>res.json())
+    .then(data=>{
+      console.log(data);
+    })
+  }
   console.log(products);
   return (
     <div>
@@ -45,6 +58,8 @@ const ProductsPage = () => {
                 <td>{item.price}</td>
                 <td>{item.desc}</td>
                 <td>fafa</td>
+                <td><button onClick={()=>handleClick(item.id)}>Xoá</button></td>
+                <td ><Link to={`/admin/edit/${item.id}`}>Sửa</Link></td>
               </tr>
             )))}
           </tbody>

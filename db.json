@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": "4",
       "email": "chungvuong01@gmail.com",
       "password": "123456789"
     },
@@ -9,15 +9,20 @@
       "email": "vuongvanchung30092001@gmail.com",
       "password": "$2a$10$vjI4C4ZINSmbPc9sih.44OkTR4bVFsHtaIGPPY7hs6YCNngULSrYy",
       "id": "1"
+    },
+    {
+      "email": "chungff@gmail.com",
+      "password": "$2a$10$n4VNeXcJAPDxxldRnKDCceHqaXd9agd7qYwLiv/H.YIdfQjwXlQw.",
+      "id": "1"
     }
   ],
   "products": [
     {
-      "id": 1,
-      "title": "Product1",
-      "img": "img.png",
-      "price": 122121212,
-      "desc": "description"
+      "title": "chungadada",
+      "img": "https://images.foody.vn/res/g97/965165/prof/s640x400/foody-upload-api-foody-mobile-anh-bia-200515093155.jpg",
+      "price": "31212",
+      "desc": "313131",
+      "id": 1
     },
     {
       "title": "Chungvvdad",

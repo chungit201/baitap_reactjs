@@ -21,7 +21,8 @@ const LoginPage = () => {
         if (data) {
           console.log(data);
           const {user} = data;
-          const {accessToken} = data
+          const {accessToken} = data;
+          console.log(data);
           localStorage.setItem('user', JSON.stringify(user));
           sessionStorage.setItem('token', JSON.stringify(accessToken));
           window.location.href = '/admin';
